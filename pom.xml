@@ -8,11 +8,11 @@
         <version>3.2.5</version>
         <relativePath/> 
     </parent>
-    <groupId>com.example</groupId>
-    <artifactId>hw</artifactId>
+    <groupId>br.com.cmabreu</groupId>
+    <artifactId>prompt-creator</artifactId>
     <version>0.1</version>
-    <name>hw</name>
-    <description>Sistema de Cadastro de Carrinhos</description>
+    <name>wan-prompter</name>
+    <description>WAN 2.2 Prompt Creator</description>
     <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>

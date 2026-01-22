@@ -1,4 +1,4 @@
-package com.example.hw.controller;
+package br.com.cmabreu.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

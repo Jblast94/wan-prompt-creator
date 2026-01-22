@@ -1,4 +1,4 @@
-package com.example.hw.service;
+package br.com.cmabreu.service;
 
 import java.net.URI;
 import org.json.JSONArray;

@@ -1,4 +1,4 @@
-package com.example.hw.service;
+package br.com.cmabreu.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

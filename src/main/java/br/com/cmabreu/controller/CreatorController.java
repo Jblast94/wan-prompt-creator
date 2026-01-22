@@ -1,11 +1,11 @@
-package com.example.hw.controller;
+package br.com.cmabreu.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.hw.service.CreatorService;
+import br.com.cmabreu.service.CreatorService;
 
 import java.util.Map;
 
