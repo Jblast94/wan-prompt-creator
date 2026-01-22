@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<html manifest="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>WAN 2.2 Prompt Creator</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link rel="stylesheet" href="/adminlte/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/adminlte/bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/adminlte/dist/css/skins/_all-skins.min.css">
+    <link rel="stylesheet" href="/adminlte/bower_components/Ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="/adminlte/bower_components/select2/css/select2.min.css">
+    <link rel="stylesheet" href="/adminlte/dist/css/AdminLTE.css">
+    <link rel="stylesheet" href="/common/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark/dark.css">
+</head>
+
+<body class="skin-black layout-top-nav" style="height: auto; min-height: 100%;">
+
+    <div class="wrapper" style="height: auto; min-height: 100%;">
+        
+        <nav class="navbar navbar-static-top" role="navigation" style="background-color: #222d32; color: white;">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <h4>WAN 2.2 Prompt Creator</h4>
+                </div>
+                <div class="navbar-custom-menu">
+                    &nbsp;
+                </div>
+            </div>
+        </nav>
+
+        <div class="content-wrapper" style="position: relative; min-height: 600px;">
+            <section class="content">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="box box-primary">
+                            <div class="box-body" id="main-container">
+                                <form id="prompt-form">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label for="scene">Scene Description</label>
+                                                <textarea id="scene" class="form-control" rows="3" placeholder="e.g., A robot exploring a futuristic city at night"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="lighting">Lighting</label>
+                                                <select id="lighting" class="form-control select2" multiple="multiple" data-placeholder="Select lighting options"></select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="style">Style</label>
+                                                <select id="style" class="form-control select2" multiple="multiple" data-placeholder="Select styles"></select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="protagonist-action">Protagonist Action</label>
+                                                <select id="protagonist-action" class="form-control select2" multiple="multiple" data-placeholder="Select actions"></select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="camera-angle">Camera Angle</label>
+                                                <select id="camera-angle" class="form-control select2" multiple="multiple" data-placeholder="Select camera angles"></select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="camera-movement">Camera Movement</label>
+                                                <select id="camera-movement" class="form-control select2" multiple="multiple" data-placeholder="Select camera movements"></select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="camera-device">Camera/Device</label>
+                                                <select id="camera-device" class="form-control select2" multiple="multiple" data-placeholder="Select camera/device"></select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <button type="submit" id="generate-button" class="btn btn-primary">Generate Prompts</button>
+                                        </div>
+                                    </div>
+                                </form>
+                                <div id="result-container" style="margin-top: 20px;">
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer class="main-footer">
+            <div class="pull-right hidden-xs">
+                <b>Version</b> 0.1
+            </div>
+            <strong>&copy; 2024 <a href="#">Your Company</a>.</strong> All rights reserved.
+        </footer>
+    </div>
+
+    <script src="/adminlte/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="/adminlte/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/adminlte/bower_components/select2/js/select2.full.min.js"></script>
+    <script src="/adminlte/dist/js/adminlte.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/common/creator.js"></script>
+</body>
+
+</html>
