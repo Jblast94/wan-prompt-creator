@@ -1,8 +1,5 @@
 # Java WAN 2.2 Prompt Creator
-
-<img width="1892" height="853" alt="tela" src="https://github.com/user-attachments/assets/89e8c9c5-c693-4bf6-8b1a-aec55e78d894" />
-
-
+<img width="1507" height="716" alt="tela" src="https://github.com/user-attachments/assets/d8422cb9-1f3f-4a73-9e3b-5904fce66d67" />
 Based on magnific WAN 2.2 - BRKN AI Prompt Generator
 
 https://github.com/NUVoize/wan22-brkn-prompt-helper
