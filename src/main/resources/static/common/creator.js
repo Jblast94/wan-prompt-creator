@@ -86,12 +86,11 @@ $(document).ready(function() {
     ];
 
     const nsfwProtagonistActionOptions = [
-        'Giving a blowjob', 'Slowly undressing', 'Lounging on a bed leg spread', 'Sharing an intense, intimate gaze',
+        'Giving a blowjob', 'Singing', 'Touching own lips', 'Touching own breasts', 'Slowly undressing', 'Lounging on a bed leg spread', 'Sharing an intense, intimate gaze',
         'Whispering a secret', 'Caressing their own skin','Caressing her pussy', 'A passionate kiss', 'lying on her back legs spread', 'On all fours'
         ,'Fingering her pussy', 'Sqatting over dildo', 'Squatting over penis', 'Penis in vagina','Penis in anus','Doggystyle','Fucked from behind','cumshot on face', 
         'Leaning against a rain-streaked window', 'Cumshot in ass', 'Facial cumshot', 'Handjob', 'Facefucked' 
-        ,'Deepthroat', 'Applying perfume to their neck', 'Fucked by a horse','Fucked by a dog','Mating','Being raped',
-        'Lighting a cigarette in a dark room', "Squating", 
+        ,'Deepthroat', 'Applying perfume to their neck', 'Lighting a cigarette in a dark room', "Squating", 
     ];
 
     const cameraAngleOptions = [
