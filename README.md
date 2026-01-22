@@ -7,7 +7,8 @@ https://github.com/NUVoize/wan22-brkn-prompt-helper
 https://www.instasd.com/post/wan2-2-whats-new-and-how-to-write-killer-prompts
 
 # WARNING
-It is always NSFW and ready for local Ollama. I'm still working on the interface to change models and server address.
+It is always NSFW and ready for local Ollama. Some items on the lists may offend you. Proceed with this in mind!.
+I'm still working on the interface to change models and server address.
 
 Current settings (will change soon): 
 
